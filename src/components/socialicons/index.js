@@ -3,10 +3,10 @@ import "./style.css";
 import {
   FaGithub,
   FaTwitter,
-  FaFacebookF,
   FaLinkedin,
-  FaYoutube,
-  FaTwitch,
+  FaInstagram, 
+  FaDribbble,
+  FaFigma,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -21,17 +21,17 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.github && (
+        {socialprofils.instagram && (
           <li>
-            <a href={socialprofils.github}>
-              <FaGithub />
+            <a href={socialprofils.instagram}>
+              <FaInstagram />
             </a>
           </li>
         )}
-        {socialprofils.facebook && (
+         {socialprofils.github && (
           <li>
-            <a href={socialprofils.facebook}>
-              <FaFacebookF />
+            <a href={socialprofils.github}>
+              <FaGithub />
             </a>
           </li>
         )}
@@ -42,22 +42,23 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.youtube && (
+        {socialprofils.dribbble && (
           <li>
-            <a href={socialprofils.youtube}>
-              <FaYoutube />
+            <a href={socialprofils.dribbble}>
+              <FaDribbble />
             </a>
           </li>
         )}
-        {socialprofils.twitch && (
+        {socialprofils.figma && (
           <li>
-            <a href={socialprofils.twitch}>
-              <FaTwitch />
+            <a href={socialprofils.figma}>
+              <FaFigma />
             </a>
           </li>
         )}
+        
       </ul>
-      <p>Follow Me</p>
+      <p>Say Hi!</p>
     </div>
   );
 };

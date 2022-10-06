@@ -1,18 +1,20 @@
-const logotext = "JOHN";
+const logotext = "Hello ... ";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Ariana Davis — Product UX/UI Designer",
+    description: "I’m Ariana Davis - product designer currently working in Los Angeles",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Ariana Davis",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I'm a product designer",
+        second: "I'm a entreprenuer ",
+        third: "I enjoy building innovative products",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: " Hello 👋🏽, I'm a front-end engineer and product designer with an entrepreneur's mindset who believes in crafting innovative ways to create & build. 🚀. With 5+ years of professional experience, I aim to delight users with a product that tells a story, inspires, engages, and excites them. As a creative thinker, my passions lie in the intersection of creative development and emerging technologies when it applies to building & scaling products that are both engaging yet detailed through the use of forward thinking & innovation.",
+    your_img_url: "https://unsplash.com/photos/Im7lZjxeLhg",
+    // your_img_url: "https://unsplash.com/photos/Im7lZjxeLhg",
+
 };
 
 const dataabout = {
@@ -145,12 +147,12 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+    github: "https://github.com/yourmobilegeek",
+    linkedin: "https://www.linkedin.com/in/arianamdavis/",
+    twitter: "https://twitter.com/yourmobilegeek",
+    instagram: "https://www.instagram.com/yourmobilegeek/",
+    dribbble: "https://dribbble.com/yourmobilegeek",
+    figma: "https://www.figma.com/@yourmobilegeek",
 };
 export {
     meta,
